@@ -3,6 +3,7 @@ body{
 }
 .navContainer{
     border:solid black;
+
     height: 600px;
     display:flex;
     background-image: url(https://cdn.shopify.com/s/files/1/0049/1212/files/Screen_Shot_2022-12-16_at_2.43_2_1920x.png?v=1672124621);
@@ -12,7 +13,7 @@ body{
 }
 
 .iconContainer{
-    border: solid floralwhite;
+   /* border: solid floralwhite; */
     height: 80px;
     width: 33%;
     display: flex;
@@ -25,7 +26,7 @@ body{
 
 }
 .findercontainer{
-    border: solid yellowgreen;
+  /*  border: solid yellowgreen; */
     height: 105px;
     width: 550px;
     display: flex;
@@ -51,7 +52,7 @@ body{
     
 }
 .aboutcontainer{
-    border: solid rgb(0, 255, 13);
+   /* border: solid rgb(0, 255, 13);*/
     width: 950px;
     display: flex;
     height: 75px;
@@ -83,7 +84,7 @@ body{
 
     }
 .infocontainer{
-    border:solid peru;
+   /* border:solid peru;*/
     height: 200px;
     text-align: center;
     padding: 40px;
@@ -94,7 +95,7 @@ body{
     width:950px;
     margin-left: 200px;
     padding-top: 40px;
-    
+
 
 
 
@@ -117,7 +118,7 @@ body{
 border: solid cyan;
 }
 .quote{
-    border: solid forestgreen;
+    /* border: solid forestgreen;*/
     width: 800px;
     margin-left: 300px;
     text-align: center;
