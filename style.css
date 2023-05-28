@@ -4,14 +4,43 @@ body{
 .navContainer{
     border:solid black;
     height: 750px;
-    border-width:0.2px;
     display:flex;
     justify-content: space-between;
     background-image: url(https://cdn.shopify.com/s/files/1/0049/1212/files/Screen_Shot_2022-12-16_at_2.43_2_1920x.png?v=1672124621);
-
-    
+    width:100%;
 }
-    
+.iconContainer{
+    border: solid floralwhite;
+    height: 80px;
+    width: 33%;
+    display: flex;
+
+}
+.tortuga{
+   max-height: 70px;
+   width: 73px;
+
+}
+.findercontainer{
+    border: solid yellowgreen;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: 400px;
+}
+
+.name{
+    color: aliceblue;
+    margin-left: 10px;
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: sans-serif;
+
+
+
+
+}
 .infocontainer{
     border:solid peru;
     height: 500px;
@@ -35,4 +64,20 @@ body{
     width:400px;
 }
 
+.site{
+    width: 33%;
+    
+}
+.aboutcontainer{
+    border: solid blue;
+    width: 33.33%;
 
+}
+.about{
+    width: 500px;
+}
+.cart{
+    width: 20px;
+    height: 20px;
+
+}
