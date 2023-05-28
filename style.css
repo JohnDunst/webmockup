@@ -3,18 +3,21 @@ body{
 }
 .navContainer{
     border:solid black;
-    height: 750px;
+    height: 600px;
     display:flex;
-    justify-content: space-between;
     background-image: url(https://cdn.shopify.com/s/files/1/0049/1212/files/Screen_Shot_2022-12-16_at_2.43_2_1920x.png?v=1672124621);
     width:100%;
+    justify-content: space-between;
+    
 }
+
 .iconContainer{
     border: solid floralwhite;
     height: 80px;
     width: 33%;
     display: flex;
-
+    margin-top: 29px;
+    margin-left: 10px;
 }
 .tortuga{
    max-height: 70px;
@@ -23,23 +26,59 @@ body{
 }
 .findercontainer{
     border: solid yellowgreen;
-    height: 75px;
+    height: 105px;
+    width: 550px;
     display: flex;
-    justify-content: space-between;
-    width: 300px;
-    margin-left: 400px;
+    margin-left: 100px;
+    justify-content:space-evenly;
+    margin-top: 29px;
+    padding-top: 45px;
+    padding-left: 15px;
+    color: azure;
 }
 
 .name{
     color: aliceblue;
     margin-left: 10px;
     margin-top: 25px;
-    font-size: 30px;
+    font-size: 26px;
     font-family: sans-serif;
 
+}
 
-
-
+.site{
+    width: 400px;
+    
+}
+.aboutcontainer{
+    border: solid rgb(0, 255, 13);
+    width: 950px;
+    display: flex;
+    height: 75px;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 280px;
+    margin-top: 29px;
+    padding-top: 40px;
+}
+.cart{
+    width: 25px;
+    height: 20px;
+}
+.quiz{
+    width: 280px;
+    border: dotted black;
+    height: 20px;
+    text-align: right;
+    margin-right: 100px;
+    }
+.packContainer{
+    border: solid teal;
+    width: 100px; 
+    margin-left: 55px;
+    margin-top: 77px;
 }
 .infocontainer{
     border:solid peru;
@@ -52,32 +91,13 @@ body{
     height: 400px;
 }
 .featurecontainer{
-    /* border:solid red; */
     display:flex;
     border: solid yellow;
     height: 400px;
+    justify-content: space-evenly;
 }
 .reviewcontainer{
     /* border:solid blue; */
-    display:flex;
-    justify-content: space-evenly;
-    width:400px;
-}
-
-.site{
-    width: 33%;
-    
-}
-.aboutcontainer{
-    border: solid blue;
-    width: 33.33%;
-
-}
-.about{
-    width: 500px;
-}
-.cart{
-    width: 20px;
-    height: 20px;
-
+    height: 200px;
+border: solid cyan;
 }
